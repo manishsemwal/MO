@@ -29,4 +29,9 @@ public class MainActivity extends AppCompatActivity{
         Intent intent = new Intent(MainActivity.this, PreYearActivity.class);
         startActivity(intent);
     }
+
+    public void fun4(View view){
+        Intent intent = new Intent(MainActivity.this, BooksActivity.class);
+        startActivity(intent);
+    }
 }
